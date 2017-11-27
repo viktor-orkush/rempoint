@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Задайте вопрос мастеру</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="Задать вопрос мастеру">
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/my.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- TOP -->
+    <div class="card header-color">
+      <div class="row text-center">
+        <div class="col-6 col-sm-6  col-md-3  col-lg-3">
+          <a href="index.html" title="Главная" rel="home" id="logo">
+            <img src="img/logo250.png" alt="Главная" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-6 col-sm-6  col-md-3  col-lg-3">
+          <div class="region region-logo-left-block">
+            <h3 class="schedule-title">Время работы:
+              <br>
+            </h3>
+            <p>Пн-Пт: 11:00 - 19:00
+              <br> Сб-Вс: выходные дни
+              <br>
+            </p>
+          </div>
+        </div>
+        <div class="col-6 col-sm-6  col-md-3  col-lg-3">
+          <h3>Наш адрес:
+          </h3>
+          <p>Киев, ул. Шолуденко 2
+            <br> офис 104, код двери 248</p>
+          <small>
+            <a href="contact.html#adress">посмотреть на карте</a>
+          </small>
+        </div>
+        <div class="col-6 col-sm-6  col-md-3  col-lg-3">
+          <div class="content">
+            <h3>Контакты:
+            </h3>
+            <p>
+              <a href="tel:+380933297370">093 329-73-70</a>
+              <p>
+                <a href="tel:+380443619188">044 361-91-88</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /TOP -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark  py-lg-4">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Главная
+            </a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link text-uppercase text-expanded" href="about.html">О нас</a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link text-uppercase text-expanded" href="send.html">Выслать почтой</a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link text-uppercase text-expanded" href="price.html">Гарантии и цены</a>
+          </li>
+          <li class="nav-item px-lg-2">
+            <a class="nav-link text-uppercase text-expanded" href="contact.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navigation -->
+
+
+    <!-- FOTOS -->
+    <div class="bg-faded p-4 my-4">
+      <h2 class="text-center text-lg text-uppercase my-0">
+        <strong>Задайте вопрос мастеру</strong>
+      </h2>
+      <hr class="divider">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <!-- Контейнер, содержащий форму обратной связи -->
+          <div class="panel panel-info">
+            <!-- Заголовок контейнера -->
+            <div class="panel-heading">
+              <h3 class="panel-title">Форма обратной связи</h3>
+            </div>
+            <!-- Содержимое контейнера -->
+            <div class="panel-body">
+  
+              <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+              <div class="alert alert-info hidden-lg-down" role="alert" id="successMessage">
+                <strong>Внимание!</strong> Ваше сообщение успешно отправлено.
+              </div>
+  
+              <!-- Форма обратной связи -->
+              <form id="contactForm">
+                <div class="row">
+                  <div id="error" class="col-sm-12" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>                
+                  <!-- Имя и email пользователя -->                
+                  <div class="col-sm-6">
+                    <!-- Имя пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="name" class="control-label">Введите ваше имя:</label>
+                      <input type="text" id="name" name="name" class="form-control" required="required" value="" placeholder="Например, Иван Иванович" minlength="2" maxlength="30">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <!-- Email пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="email" class="control-label">Введите адрес email:</label>
+                      <input type="email" id="email" name="email" class="form-control" required="required"  value="" placeholder="Например, ivan@mail.ru" maxlength="30">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Сообщение пользователя -->
+                <div class="form-group has-feedback">
+                  <label for="message" class="control-label">Введите сообщение:</label>
+                  <textarea id="message" class="form-control" rows="3" placeholder="Введите сообщение от 20 до 500 символов" minlength="20" maxlength="500" required="required"></textarea>
+                </div>
+  
+                <hr>
+                <!-- Изображение, содержащее код капчи -->		  
+                <img id="img-captcha" src="feedback/captcha.php">
+                <!-- Элемент, обновляющий код капчи -->
+                <div id="reload-captcha" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Обновить</div>
+                <!-- Блок для ввода кода капчи -->
+                <div class="form-group has-feedback">
+                  <label id="label-captcha" for="captcha" class="control-label">Пожалуйста, введите указанный на изображении код:</label>
+                  <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
+                  <span class="glyphicon form-control-feedback"></span>
+                </div>
+  
+                <!-- Кнопка, отправляющая форму -->  
+                <button type="submit" class="btn btn-primary pull-right">Отправить сообщение</button>
+              </form><!-- Конец формы -->
+  
+            </div>
+          </div><!-- Конец контейнера -->
+  
+        </div>
+      </div>
+     
+    </div>
+    <!-- /.FOROS -->
+
+    <!--Footer-->
+    <footer class="bg-faded p-4 my-4 bg-dark">
+      <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white  d-none d-lg-block">
+        <a class="text-white" href="index.html">Главная </a>
+        |
+        <a class="text-white" href="contact.html">Контакты </a>
+      </div>
+      <div class="text-center text-xs">
+        «RemPoint» 2017 © Все права защищены
+      </div>
+    </footer>
+    <!--/.Footer-->
+
+    <!-- Bootstrap core JavaScript 
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <script src="feedback/js/jquery-3.1.0.min.js"></script>
+    <script src="feedback/js/bootstrap.min.js"></script>
+    <script src="feedback/script2.js"></script>
+  </div>
+</body>
+
+</html>
